@@ -8,3 +8,4 @@ sudo apt clean -y
 sudo rpi-eeprom-update -a
 echo Update finished, rebooting
 sudo reboot
+
