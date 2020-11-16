@@ -1,5 +1,5 @@
 sudo timedatectl set-timezone Asia/Dubai
-sudo iw reg set US
+sudo raspi-config nonint do_wifi_country US
 # sudo raspi-config nonint do_hostname blenode
 sudo apt update -y
 sudo apt full-upgrade -y
