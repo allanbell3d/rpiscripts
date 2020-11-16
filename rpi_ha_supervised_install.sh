@@ -4,4 +4,4 @@ sudo systemctl disable ModemManager
 sudo systemctl stop ModemManager
 sudo curl -fsSL get.docker.com | sh
 sudo curl -sL "https://raw.githubusercontent.com/Kanga-Who/home-assistant/master/supervised-installer.sh" | bash -s -- -m raspberrypi4
-
+exit
