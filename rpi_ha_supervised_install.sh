@@ -1,4 +1,4 @@
-Script to install Home Assistant supervised in raspberry
+# Script to install Home Assistant supervised in raspberry
 version=$1
 
 
