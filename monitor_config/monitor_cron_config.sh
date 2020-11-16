@@ -3,7 +3,7 @@
 blenode=$1
 
 minute=0
-if [[ ${blenode} == 1 ]]
+if [ ${blenode} == 1 ]
   then minute=0
 elif [ ${blenode} == 2 ]
   then minute=10
