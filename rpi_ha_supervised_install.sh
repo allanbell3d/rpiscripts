@@ -4,15 +4,6 @@ apt-get install -y software-properties-common apparmor-utils apt-transport-https
 systemctl disable ModemManager
 systemctl stop ModemManager
 curl -fsSL get.docker.com | sh
-
-# curl -sL "https://raw.githubusercontent.com/Kanga-Who/home-assistant/master/supervised-installer.sh" | bash -s -- -m raspberrypi4
-
-# Start of modified version
-wget https://raw.githubusercontent.com/Kanga-Who/home-assistant/master/supervised-installer.sh
-sed -i 's@answer\s<\s/dev/tty@answer@g' supervised-installer.sh
-yes | bash supervised-installer.sh -s -- -m raspberrypi4
-# End of modified version
-
-rm supervised-installer.sh
+yes | curl -sL "https://raw.githubusercontent.com/Kanga-Who/home-assistant/master/supervised-installer.sh" | sed 's@answer\s<\s/dev/tty@answer@g' | bash -s -- -m raspberrypi4
 exit
 
