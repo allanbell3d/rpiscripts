@@ -1,5 +1,5 @@
 # Script to install Home Assistant supervised in raspberry
-
+sudo -i
 apt-get install -y software-properties-common apparmor-utils apt-transport-https avahi-daemon ca-certificates curl dbus jq network-manager socat
 systemctl disable ModemManager
 systemctl stop ModemManager
