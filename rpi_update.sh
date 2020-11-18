@@ -8,6 +8,7 @@ sudo apt autoremove -y
 sudo apt clean -y
 sudo apt-get -y install git
 sudo rpi-eeprom-update -a
+echo:
 echo Update finished, rebooting
 
 
