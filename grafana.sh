@@ -1,5 +1,6 @@
-sudo docker volume create grafana_data
+#!/bin/sh
 
+sudo docker volume create grafana_data
 sudo docker run -d \
   p 3000:3000 \
   --name=grafana \
