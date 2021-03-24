@@ -24,9 +24,9 @@ PREF_PASS_FILTER_MANUFACTURER_ARRIVE="Unknown"
 
 
 #ARRIVE TRIGGER NEGATIVE FILTER(S)
-PREF_FAIL_FILTER_ADV_FLAGS_ARRIVE="NONE" 
+PREF_FAIL_FILTER_ADV_FLAGS_ARRIVE="0x06" 
 #PREF_FAIL_FILTER_MANUFACTURER_ARRIVE="NONE"
-PREF_FAIL_FILTER_MANUFACTURER_ARRIVE="Google|Apple|Microsoft|Sony Corporation|Bose|Xiaomi|Intel|Huawei|Lg|Samsung|SGL Italia S.r.l. for Bose Corporation|Telink Semiconductor Taipei Co Ltd"
+PREF_FAIL_FILTER_MANUFACTURER_ARRIVE="Google|Apple|Microsoft|Bose|Xiaomi|Intel|Huawei|Lg|Samsung|SGL|Telink|Sony|Sony Corporation|SGL Italia S.r.l. for Bose Corporation|Telink Semiconductor Taipei Co Ltd"
 
 
 PREF_DEVICE_TRACKER_REPORT=true
